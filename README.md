@@ -7,6 +7,11 @@ Se [DEMO](http://kosgis.github.io/CartoDB-plus/)
 
 ##Udvikling
 
+Installering af [NodeJS](http://nodejs.org/) moduler
+
+```bash
+npm install
+```
 
 Publicering af src folderen på http://kosgis.github.io/CartoDB-plus/ sker med Grunt default task.
 
