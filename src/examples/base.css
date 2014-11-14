@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.carto-wrapper-container,
+.carto-wrapper-container > .carto-wrapper-map {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.carto-wrapper-container > .carto-wrapper-search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 200;
+    width: 350px;
+}
+
+.carto-wrapper-container > .carto-wrapper-search > div {
+    cursor: auto;
+    background-color: rgba(255,255,255,0.8);
+    width: 100%;
+    padding: 0;
+    font:normal 13px "Helvetica",Arial;
+    color:#858585;
+    text-align: left;
+    webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px 2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px 2px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    
+    border: 0px solid #999999;
+    background: white;
+    z-index: 105;
+}
+
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchinput {
+    height: 40px;
+}
+
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchinput .carto-wrapper-searchfield {
+    height: 100%;
+    padding-right: 50px;
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchinput .carto-wrapper-searchfield > input {
+    border: 0 none;
+    color: rgb(133, 133, 133);
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 40px 0 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchinput .carto-wrapper-searchfield > .fa {
+    line-height: 39px;
+    margin-right: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: absolute;
+    right: 13px;
+    
+    
+        line-height: 39px;
+    margin-right: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 40px;
+}
+
+
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchinput > .carto-wrapper-searchbutton {
+    background-color: rgb(100, 143, 20);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    line-height: 43px;
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult {
+    max-height: 2000px;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult ul {
+    margin: 0;
+    padding: 0;
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult li {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    padding-left: 40px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult li:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult li.main {
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0.05);
+}
+
+
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult li .fa.fa-picture-o,
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult li .fa.fa-table {
+    font-size: 26px;
+    margin-right: 10px;
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult li .fa.fa-check {
+    float: right;
+    margin: 6px;
+    display: none;
+}
+.carto-wrapper-container > .carto-wrapper-search > div.carto-wrapper-searchresult li.active .fa.fa-check {
+    display: inline-block;
+}
+
+

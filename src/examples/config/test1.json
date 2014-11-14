@@ -1,0 +1,23 @@
+{
+    "map": {
+        "center": [55.678265,12.531274],
+        "zoom": 15
+    },
+    "controls": {
+        "layersearch": {
+            "disabled": false
+        }
+    },
+    "baseLayer": {
+        "URLtemplate": "http://54.229.79.223:8888/v2/BoSoLaK/{z}/{x}/{y}.png",
+        "options": {
+            "minZoom": 12,
+            "maxZoom": 20,
+            "attribution": "&copy Frederiksberg Kommune"
+        }
+    },
+    "layers": [{
+        "configType": "visualization",
+        "url": "http://frederiksberg.cartodb.com/api/v2/viz/609c3544-6403-11e4-9b01-0e853d047bba/viz.json"
+    }]
+}
