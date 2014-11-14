@@ -1,0 +1,37 @@
+{
+    "map": {
+        "center": [55.678265,12.531274],
+        "zoom": 15
+    },
+    "controls": {
+        "layersearch": {
+            "disabled": false
+        }
+    },
+    "baseLayer": {
+        "URLtemplate": "http://54.229.79.223:8888/v2/BoSoLaK/{z}/{x}/{y}.png",
+        "options": {
+            "minZoom": 12,
+            "maxZoom": 20,
+            "attribution": "&copy Frederiksberg Kommune"
+        }
+    },
+    "layers": [{
+        "name": "Trafik",
+        "configType": "visualization",
+        "url": "http://frederiksberg.cartodb.com/api/v2/viz/609c3544-6403-11e4-9b01-0e853d047bba/viz.json"
+    },{
+        "name": "Planer",
+        "configType": "visualization",
+        "url": "http://frederiksberg.cartodb.com/api/v2/viz/ab19b698-5f47-11e4-b1c0-0e018d66dc29/viz.json"
+    },{
+        "name": "Cykelstier",
+        "configType": "table",
+        "user_name": "frederiksberg",
+        "type": "CartoDB",
+        "sublayers": [{
+            "sql": "SELECT * FROM cykelstier",
+            "cartocss": "#cykelstier{line-color:#F00;line-width:10;line-opacity:0.5;}"
+        }]
+    }]
+}
